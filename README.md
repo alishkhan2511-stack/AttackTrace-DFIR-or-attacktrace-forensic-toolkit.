@@ -1,7 +1,7 @@
 # AttackTrace
 ### Simulated Web Attack + Digital Forensic Reconstruction Toolkit
 
-A second-year cybersecurity/digital forensics project: attack a web
+A cybersecurity/digital forensics project: attack a web
 application, then reconstruct exactly what happened using only the
 evidence a real DFIR analyst would have (logs, timestamps, artifacts) —
 without relying on prior knowledge of the attack.
@@ -27,8 +27,7 @@ python3 forensic_analyzer.py access.log
 # 3. Open the result
 cat forensic_report.md
 ```
-
-## How to extend this into your full college project
+##How the project is being extended?
 
 ### Phase 1 — Do the attack for real (this is what makes it "yours")
 1. Set up VirtualBox with two VMs: Kali Linux (attacker) and
